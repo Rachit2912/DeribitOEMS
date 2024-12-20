@@ -78,10 +78,7 @@ A high-efficiency trading system implemented in C++ designed for Deribit Test. T
 #### Development Environment
 - Visual Studio 2022 (or an equivalent IDE).
 
-#### Dependencies
-- **cURL library**: For handling HTTP requests.
-- **WebSocket library** (e.g., `websocketpp`): For WebSocket communication.
-- **vcpkg**: For managing project dependencies.
+
 
 #### API Setup
 1. Create an account on [Deribit Test](https://test.deribit.com/).
@@ -94,10 +91,10 @@ A high-efficiency trading system implemented in C++ designed for Deribit Test. T
    ```bash
    git clone https://github.com/Rachit2912/DeribitOEMS.git
    ```
-2. Install dependencies using vcpkg:
-   ```bash
-   ./vcpkg install curl websocketpp
-   ```
+2. Check for required dependencies: 
+  *** -> iostream, string, chrono, csignal, filesystem, drogon, drogon/drogon.h, drogon/HttpClient.h, drogon/WebSocketClient.h, drogon/HttpAppFramework.h, fstream, memory, stdexcept, cstdio, iomanip, sstream, nlohmann/json
+
+
 3. Build the project using Visual Studio or your preferred IDE.
 4. Run the executable and start trading.
 
@@ -116,4 +113,3 @@ A high-efficiency trading system implemented in C++ designed for Deribit Test. T
 - Introduce graphical visualization tools for orderbook data.
 
 ---
-
