@@ -92,7 +92,7 @@ A high-efficiency trading system implemented in C++ designed for Deribit Test. T
    git clone https://github.com/Rachit2912/DeribitOEMS.git
    ```
 2. Check for required dependencies: 
-  *** -> iostream, string, chrono, csignal, filesystem, drogon, drogon/drogon.h, drogon/HttpClient.h, drogon/WebSocketClient.h, drogon/HttpAppFramework.h, fstream, memory, stdexcept, cstdio, iomanip, sstream, nlohmann/json
+  #### -> iostream, string, chrono, csignal, filesystem, drogon, drogon/drogon.h, drogon/HttpClient.h, drogon/WebSocketClient.h, drogon/HttpAppFramework.h, fstream, memory, stdexcept, cstdio, iomanip, sstream, nlohmann/json
 
 
 3. Build the project using Visual Studio or your preferred IDE.
