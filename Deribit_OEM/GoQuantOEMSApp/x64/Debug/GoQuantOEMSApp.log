@@ -1,0 +1,365 @@
+﻿  main.cpp
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(302,23): warning C4251: 'trantor::EventLoop::looping_': 'std::atomic<bool>' needs to have dll-interface to be used by clients of 'trantor::EventLoop'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\atomic(2113,8):
+      see declaration of 'std::atomic<bool>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(303,21): warning C4251: 'trantor::EventLoop::threadId_': 'std::thread::id' needs to have dll-interface to be used by clients of 'trantor::EventLoop'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread(227,15):
+      see declaration of 'std::thread::id'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(304,23): warning C4251: 'trantor::EventLoop::quit_': 'std::atomic<bool>' needs to have dll-interface to be used by clients of 'trantor::EventLoop'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\atomic(2113,8):
+      see declaration of 'std::atomic<bool>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(305,29): warning C4251: 'trantor::EventLoop::poller_': 'std::unique_ptr<trantor::Poller,std::default_delete<trantor::Poller>>' needs to have dll-interface to be used by clients of 'trantor::EventLoop'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
+      see declaration of 'std::unique_ptr<trantor::Poller,std::default_delete<trantor::Poller>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(307,17): warning C4251: 'trantor::EventLoop::activeChannels_': 'std::vector<trantor::Channel *,std::allocator<trantor::Channel *>>' needs to have dll-interface to be used by clients of 'trantor::EventLoop'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<trantor::Channel *,std::allocator<trantor::Channel *>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(311,21): warning C4251: 'trantor::EventLoop::funcs_': 'trantor::MpscQueue<trantor::Func>' needs to have dll-interface to be used by clients of 'trantor::EventLoop'
+  (compiling source file 'main.cpp')
+      C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\LockFreeQueue.h(30,7):
+      see declaration of 'trantor::MpscQueue<trantor::Func>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(312,33): warning C4251: 'trantor::EventLoop::timerQueue_': 'std::unique_ptr<trantor::TimerQueue,std::default_delete<trantor::TimerQueue>>' needs to have dll-interface to be used by clients of 'trantor::EventLoop'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
+      see declaration of 'std::unique_ptr<trantor::TimerQueue,std::default_delete<trantor::TimerQueue>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\net\EventLoop.h(313,21): warning C4251: 'trantor::EventLoop::funcsOnQuit_': 'trantor::MpscQueue<trantor::Func>' needs to have dll-interface to be used by clients of 'trantor::EventLoop'
+  (compiling source file 'main.cpp')
+      C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\LockFreeQueue.h(30,7):
+      see declaration of 'trantor::MpscQueue<trantor::Func>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\LogStream.h(248,17): warning C4251: 'trantor::LogStream::exBuffer_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'trantor::LogStream'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\Logger.h(335,16): warning C4251: 'trantor::Logger::sourceFile_': 'trantor::Logger::SourceFile' needs to have dll-interface to be used by clients of 'trantor::Logger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\Logger.h(57,11):
+      see declaration of 'trantor::Logger::SourceFile'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\Cookie.h(397,17): warning C4251: 'drogon::Cookie::domain_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'drogon::Cookie'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\Cookie.h(398,17): warning C4251: 'drogon::Cookie::path_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'drogon::Cookie'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\Cookie.h(399,17): warning C4251: 'drogon::Cookie::key_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'drogon::Cookie'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\Cookie.h(400,17): warning C4251: 'drogon::Cookie::value_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'drogon::Cookie'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\Cookie.h(401,24): warning C4251: 'drogon::Cookie::maxAge_': 'std::optional<int>' needs to have dll-interface to be used by clients of 'drogon::Cookie'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\optional(213,7):
+      see declaration of 'std::optional<int>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\MsgBuffer.h(352,23): warning C4251: 'trantor::MsgBuffer::buffer_': 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of 'trantor::MsgBuffer'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<char,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\HttpViewData.h(172,25): warning C4251: 'drogon::HttpViewData::viewData_': 'std::unordered_map<std::string,std::any,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::any>>>' needs to have dll-interface to be used by clients of 'drogon::HttpViewData'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map(61,7):
+      see declaration of 'std::unordered_map<std::string,std::any,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::any>>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\HttpResponse.h(111,29): warning C4251: 'drogon::ResponseStream::asyncStream_': 'std::unique_ptr<trantor::AsyncStream,std::default_delete<trantor::AsyncStream>>' needs to have dll-interface to be used by clients of 'drogon::ResponseStream'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
+      see declaration of 'std::unique_ptr<trantor::AsyncStream,std::default_delete<trantor::AsyncStream>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\MultiPart.h(117,35): warning C4251: 'drogon::HttpFile::implPtr_': 'std::shared_ptr<drogon::HttpFileImpl>' needs to have dll-interface to be used by clients of 'drogon::HttpFile'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      see declaration of 'std::shared_ptr<drogon::HttpFileImpl>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\MultiPart.h(178,27): warning C4251: 'drogon::MultiPartParser::files_': 'std::vector<drogon::HttpFile,std::allocator<drogon::HttpFile>>' needs to have dll-interface to be used by clients of 'drogon::MultiPartParser'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<drogon::HttpFile,std::allocator<drogon::HttpFile>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\MultiPart.h(179,32): warning C4251: 'drogon::MultiPartParser::parameters_': 'std::unordered_map<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::string,drogon::utils::internal::SafeStringHash,std::equal_to<std::string>,std::allocator<std::pair<const std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::string>>>' needs to have dll-interface to be used by clients of 'drogon::MultiPartParser'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map(61,7):
+      see declaration of 'std::unordered_map<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::string,drogon::utils::internal::SafeStringHash,std::equal_to<std::string>,std::allocator<std::pair<const std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::string>>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\Plugin.h(101,17): warning C4251: 'drogon::PluginBase::config_': 'Json::Value' needs to have dll-interface to be used by clients of 'drogon::PluginBase'
+  (compiling source file 'main.cpp')
+      C:\Program Files\vcpkg\installed\x64-windows\include\json\value.h(194,16):
+      see declaration of 'Json::Value'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\Plugin.h(102,31): warning C4251: 'drogon::PluginBase::dependencies_': 'std::vector<drogon::PluginBase *,std::allocator<drogon::PluginBase *>>' needs to have dll-interface to be used by clients of 'drogon::PluginBase'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<drogon::PluginBase *,std::allocator<drogon::PluginBase *>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\Plugin.h(103,39): warning C4251: 'drogon::PluginBase::initializedCallback_': 'std::function<void (drogon::PluginBase *)>' needs to have dll-interface to be used by clients of 'drogon::PluginBase'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1074,7):
+      see declaration of 'std::function<void (drogon::PluginBase *)>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\orm\Result.h(147,19): warning C4251: 'drogon::orm::Result::resultPtr_': 'std::shared_ptr<drogon::orm::ResultImpl>' needs to have dll-interface to be used by clients of 'drogon::orm::Result'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      see declaration of 'std::shared_ptr<drogon::orm::ResultImpl>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(585,34): warning C4251: 'drogon::orm::internal::SqlBinder::sqlPtr_': 'std::shared_ptr<std::string>' needs to have dll-interface to be used by clients of 'drogon::orm::internal::SqlBinder'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      see declaration of 'std::shared_ptr<std::string>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(590,31): warning C4251: 'drogon::orm::internal::SqlBinder::parameters_': 'std::vector<const char *,std::allocator<const char *>>' needs to have dll-interface to be used by clients of 'drogon::orm::internal::SqlBinder'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<const char *,std::allocator<const char *>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(591,22): warning C4251: 'drogon::orm::internal::SqlBinder::lengths_': 'std::vector<int,std::allocator<int>>' needs to have dll-interface to be used by clients of 'drogon::orm::internal::SqlBinder'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<int,std::allocator<int>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(592,22): warning C4251: 'drogon::orm::internal::SqlBinder::formats_': 'std::vector<int,std::allocator<int>>' needs to have dll-interface to be used by clients of 'drogon::orm::internal::SqlBinder'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<int,std::allocator<int>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(593,40): warning C4251: 'drogon::orm::internal::SqlBinder::objs_': 'std::vector<std::shared_ptr<void>,std::allocator<std::shared_ptr<void>>>' needs to have dll-interface to be used by clients of 'drogon::orm::internal::SqlBinder'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<std::shared_ptr<void>,std::allocator<std::shared_ptr<void>>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(595,41): warning C4251: 'drogon::orm::internal::SqlBinder::callbackHolder_': 'std::shared_ptr<drogon::orm::internal::CallbackHolderBase>' needs to have dll-interface to be used by clients of 'drogon::orm::internal::SqlBinder'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      see declaration of 'std::shared_ptr<drogon::orm::internal::CallbackHolderBase>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(596,31): warning C4251: 'drogon::orm::internal::SqlBinder::exceptionCallback_': 'std::function<void (const drogon::orm::DrogonDbException &)>' needs to have dll-interface to be used by clients of 'drogon::orm::internal::SqlBinder'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1074,7):
+      see declaration of 'std::function<void (const drogon::orm::DrogonDbException &)>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\orm\SqlBinder.h(597,23): warning C4251: 'drogon::orm::internal::SqlBinder::exceptionPtrCallback_': 'std::function<void (const std::exception_ptr &)>' needs to have dll-interface to be used by clients of 'drogon::orm::internal::SqlBinder'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1074,7):
+      see declaration of 'std::function<void (const std::exception_ptr &)>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\orm\DbClient.h(358,17): warning C4251: 'drogon::orm::DbClient::connectionInfo_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'drogon::orm::DbClient'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(51,19): warning C4251: 'std::enable_shared_from_this<drogon::plugin::SecureSSLRedirector>::_Wptr': 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of 'std::enable_shared_from_this<drogon::plugin::SecureSSLRedirector>'
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(51,19): warning C4251:         with
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(51,19): warning C4251:         [
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(51,19): warning C4251:             _Ty=drogon::plugin::SecureSSLRedirector
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(51,19): warning C4251:         ]
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3129,7):
+      see declaration of 'std::weak_ptr<_Ty>'
+          with
+          [
+              _Ty=drogon::plugin::SecureSSLRedirector
+          ]
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(74,16): warning C4251: 'drogon::plugin::SecureSSLRedirector::exemptRegex_': 'std::basic_regex<char,std::regex_traits<char>>' needs to have dll-interface to be used by clients of 'drogon::plugin::SecureSSLRedirector'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\regex(1814,7):
+      see declaration of 'std::basic_regex<char,std::regex_traits<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\SecureSSLRedirector.h(76,17): warning C4251: 'drogon::plugin::SecureSSLRedirector::secureHost_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'drogon::plugin::SecureSSLRedirector'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(120,29): warning C4251: 'trantor::AsyncFileLogger::cond_': 'std::condition_variable' needs to have dll-interface to be used by clients of 'trantor::AsyncFileLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex(532,19):
+      see declaration of 'std::condition_variable'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(121,15): warning C4251: 'trantor::AsyncFileLogger::logBufferPtr_': 'std::shared_ptr<std::string>' needs to have dll-interface to be used by clients of 'trantor::AsyncFileLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      see declaration of 'std::shared_ptr<std::string>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(122,15): warning C4251: 'trantor::AsyncFileLogger::nextBufferPtr_': 'std::shared_ptr<std::string>' needs to have dll-interface to be used by clients of 'trantor::AsyncFileLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      see declaration of 'std::shared_ptr<std::string>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(123,20): warning C4251: 'trantor::AsyncFileLogger::writeBuffers_': 'std::queue<trantor::StringPtr,std::deque<trantor::StringPtr,std::allocator<trantor::StringPtr>>>' needs to have dll-interface to be used by clients of 'trantor::AsyncFileLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\queue(34,7):
+      see declaration of 'std::queue<trantor::StringPtr,std::deque<trantor::StringPtr,std::allocator<trantor::StringPtr>>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(124,20): warning C4251: 'trantor::AsyncFileLogger::tmpBuffers_': 'std::queue<trantor::StringPtr,std::deque<trantor::StringPtr,std::allocator<trantor::StringPtr>>>' needs to have dll-interface to be used by clients of 'trantor::AsyncFileLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\queue(34,7):
+      see declaration of 'std::queue<trantor::StringPtr,std::deque<trantor::StringPtr,std::allocator<trantor::StringPtr>>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(126,34): warning C4251: 'trantor::AsyncFileLogger::threadPtr_': 'std::unique_ptr<std::thread,std::default_delete<std::thread>>' needs to have dll-interface to be used by clients of 'trantor::AsyncFileLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
+      see declaration of 'std::unique_ptr<std::thread,std::default_delete<std::thread>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(129,17): warning C4251: 'trantor::AsyncFileLogger::filePath_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'trantor::AsyncFileLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(130,17): warning C4251: 'trantor::AsyncFileLogger::fileBaseName_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'trantor::AsyncFileLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(131,17): warning C4251: 'trantor::AsyncFileLogger::fileExtName_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'trantor::AsyncFileLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\trantor\utils\AsyncFileLogger.h(174,33): warning C4251: 'trantor::AsyncFileLogger::loggerFilePtr_': 'std::unique_ptr<trantor::AsyncFileLogger::LoggerFile,std::default_delete<trantor::AsyncFileLogger::LoggerFile>>' needs to have dll-interface to be used by clients of 'trantor::AsyncFileLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
+      see declaration of 'std::unique_ptr<trantor::AsyncFileLogger::LoggerFile,std::default_delete<trantor::AsyncFileLogger::LoggerFile>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\AccessLogger.h(118,17): warning C4251: 'drogon::plugin::AccessLogger::timeFormat_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'drogon::plugin::AccessLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\AccessLogger.h(124,30): warning C4251: 'drogon::plugin::AccessLogger::logFunctions_': 'std::vector<drogon::plugin::AccessLogger::LogFunction,std::allocator<drogon::plugin::AccessLogger::LogFunction>>' needs to have dll-interface to be used by clients of 'drogon::plugin::AccessLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<drogon::plugin::AccessLogger::LogFunction,std::allocator<drogon::plugin::AccessLogger::LogFunction>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\AccessLogger.h(130,40): warning C4251: 'drogon::plugin::AccessLogger::logFunctionMap_': 'std::map<std::string,drogon::plugin::AccessLogger::LogFunction,std::less<std::string>,std::allocator<std::pair<const std::string,drogon::plugin::AccessLogger::LogFunction>>>' needs to have dll-interface to be used by clients of 'drogon::plugin::AccessLogger'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      see declaration of 'std::map<std::string,drogon::plugin::AccessLogger::LogFunction,std::less<std::string>,std::allocator<std::pair<const std::string,drogon::plugin::AccessLogger::LogFunction>>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\RealIpResolver.h(73,11): warning C4251: 'drogon::plugin::RealIpResolver::trustCIDRs_': 'std::vector<drogon::plugin::RealIpResolver::CIDR,std::allocator<drogon::plugin::RealIpResolver::CIDR>>' needs to have dll-interface to be used by clients of 'drogon::plugin::RealIpResolver'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<drogon::plugin::RealIpResolver::CIDR,std::allocator<drogon::plugin::RealIpResolver::CIDR>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\RealIpResolver.h(74,17): warning C4251: 'drogon::plugin::RealIpResolver::fromHeader_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'drogon::plugin::RealIpResolver'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\RealIpResolver.h(75,17): warning C4251: 'drogon::plugin::RealIpResolver::attributeKey_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'drogon::plugin::RealIpResolver'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\RateLimiter.h(72,20): warning C4251: 'drogon::SafeRateLimiter::limiter_': 'std::shared_ptr<drogon::RateLimiter>' needs to have dll-interface to be used by clients of 'drogon::SafeRateLimiter'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      see declaration of 'std::shared_ptr<drogon::RateLimiter>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(131,32): warning C4251: 'drogon::plugin::Hodor::limitStrategies_': 'std::vector<drogon::plugin::Hodor::LimitStrategy,std::allocator<drogon::plugin::Hodor::LimitStrategy>>' needs to have dll-interface to be used by clients of 'drogon::plugin::Hodor'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<drogon::plugin::Hodor::LimitStrategy,std::allocator<drogon::plugin::Hodor::LimitStrategy>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(133,35): warning C4251: 'drogon::plugin::Hodor::timeUnit_': 'std::chrono::duration<double,std::ratio<1,1>>' needs to have dll-interface to be used by clients of 'drogon::plugin::Hodor'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp(91,11):
+      see declaration of 'std::chrono::duration<double,std::ratio<1,1>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(138,9): warning C4251: 'drogon::plugin::Hodor::userIdGetter_': 'std::function<std::optional<std::string> (const drogon::HttpRequestPtr &)>' needs to have dll-interface to be used by clients of 'drogon::plugin::Hodor'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1074,7):
+      see declaration of 'std::function<std::optional<std::string> (const drogon::HttpRequestPtr &)>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(140,9): warning C4251: 'drogon::plugin::Hodor::rejectResponseFactory_': 'std::function<drogon::HttpResponsePtr (const drogon::HttpRequestPtr &)>' needs to have dll-interface to be used by clients of 'drogon::plugin::Hodor'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1074,7):
+      see declaration of 'std::function<drogon::HttpResponsePtr (const drogon::HttpRequestPtr &)>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(142,27): warning C4251: 'drogon::plugin::Hodor::trustCIDRs_': 'std::vector<drogon::plugin::RealIpResolver::CIDR,std::allocator<drogon::plugin::RealIpResolver::CIDR>>' needs to have dll-interface to be used by clients of 'drogon::plugin::Hodor'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<drogon::plugin::RealIpResolver::CIDR,std::allocator<drogon::plugin::RealIpResolver::CIDR>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\Hodor.h(151,21): warning C4251: 'drogon::plugin::Hodor::rejectResponse_': 'std::shared_ptr<drogon::HttpResponse>' needs to have dll-interface to be used by clients of 'drogon::plugin::Hodor'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      see declaration of 'std::shared_ptr<drogon::HttpResponse>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(39,19): warning C4251: 'std::enable_shared_from_this<drogon::plugin::GlobalFilters>::_Wptr': 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of 'std::enable_shared_from_this<drogon::plugin::GlobalFilters>'
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(39,19): warning C4251:         with
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(39,19): warning C4251:         [
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(39,19): warning C4251:             _Ty=drogon::plugin::GlobalFilters
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(39,19): warning C4251:         ]
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3129,7):
+      see declaration of 'std::weak_ptr<_Ty>'
+          with
+          [
+              _Ty=drogon::plugin::GlobalFilters
+          ]
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(50,58): warning C4251: 'drogon::plugin::GlobalFilters::filters_': 'std::vector<std::shared_ptr<drogon::HttpFilterBase>,std::allocator<std::shared_ptr<drogon::HttpFilterBase>>>' needs to have dll-interface to be used by clients of 'drogon::plugin::GlobalFilters'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector<std::shared_ptr<drogon::HttpFilterBase>,std::allocator<std::shared_ptr<drogon::HttpFilterBase>>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\GlobalFilters.h(51,16): warning C4251: 'drogon::plugin::GlobalFilters::exemptPegex_': 'std::basic_regex<char,std::regex_traits<char>>' needs to have dll-interface to be used by clients of 'drogon::plugin::GlobalFilters'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\regex(1814,7):
+      see declaration of 'std::basic_regex<char,std::regex_traits<char>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(56,19): warning C4251: 'std::enable_shared_from_this<drogon::plugin::PromExporter>::_Wptr': 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of 'std::enable_shared_from_this<drogon::plugin::PromExporter>'
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(56,19): warning C4251:         with
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(56,19): warning C4251:         [
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(56,19): warning C4251:             _Ty=drogon::plugin::PromExporter
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(56,19): warning C4251:         ]
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3129,7):
+      see declaration of 'std::weak_ptr<_Ty>'
+          with
+          [
+              _Ty=drogon::plugin::PromExporter
+          ]
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(57,34): warning C4275: non dll-interface class 'drogon::monitoring::Registry' used as base for dll-interface class 'drogon::plugin::PromExporter'
+  (compiling source file 'main.cpp')
+      C:\Program Files\vcpkg\installed\x64-windows\include\drogon\utils\monitoring\Registry.h(27,7):
+      see declaration of 'drogon::monitoring::Registry'
+      C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(54,21):
+      see declaration of 'drogon::plugin::PromExporter'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(93,9): warning C4251: 'drogon::plugin::PromExporter::collectors_': 'std::unordered_map<std::string,std::shared_ptr<drogon::monitoring::CollectorBase>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::shared_ptr<drogon::monitoring::CollectorBase>>>>' needs to have dll-interface to be used by clients of 'drogon::plugin::PromExporter'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map(61,7):
+      see declaration of 'std::unordered_map<std::string,std::shared_ptr<drogon::monitoring::CollectorBase>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::shared_ptr<drogon::monitoring::CollectorBase>>>>'
+  
+C:\Program Files\vcpkg\installed\x64-windows\include\drogon\plugins\PromExporter.h(94,17): warning C4251: 'drogon::plugin::PromExporter::path_': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'drogon::plugin::PromExporter'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+  GoQuantOEMSApp.vcxproj -> C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\x64\Debug\GoQuantOEMSApp.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

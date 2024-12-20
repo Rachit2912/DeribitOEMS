@@ -1,0 +1,11 @@
+C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\x64\Debug\drogon.dll
+C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\x64\Debug\trantor.dll
+C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\x64\Debug\libssl-3-x64.dll
+C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\x64\Debug\libcrypto-3-x64.dll
+C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\x64\Debug\cares.dll
+C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\x64\Debug\zlibd1.dll
+C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\x64\Debug\jsoncpp.dll
+C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\x64\Debug\brotlidec.dll
+C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\x64\Debug\brotlicommon.dll
+C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\x64\Debug\brotlienc.dll
+C:\Users\rachi\Desktop\deribit_big\high-performance-trading-system\Deribit_OEM\GoQuantOEMSApp\x64\Debug\GoQuantO.67009725.Up2Date
